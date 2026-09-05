@@ -1,0 +1,11 @@
+# Generated database (created automatically on first run)
+service_auto.db
+ 
+# Python
+__pycache__/
+*.pyc
+ 
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
