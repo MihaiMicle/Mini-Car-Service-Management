@@ -19,8 +19,11 @@ No third-party packages are required.
 Project structure
 Mini-Car-Service-Management/
 ├── main.py       # Entry point — launches the app
+
 ├── gui.py        # Tkinter interface (ServiceAutoApp): windows, forms, event handlers
+
 ├── database.py   # Data layer: SQLite connection, schema, and all queries
+
 └── README.md
 
 The project is split by responsibility so the interface and the data logic can be read, tested, and changed independently:
