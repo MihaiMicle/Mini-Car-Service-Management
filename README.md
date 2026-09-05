@@ -18,6 +18,7 @@ No third-party packages are required.
 
 Project structure
 Mini-Car-Service-Management/
+
 ├── main.py       # Entry point — launches the app
 
 ├── gui.py        # Tkinter interface (ServiceAutoApp): windows, forms, event handlers
