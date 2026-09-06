@@ -1,8 +1,8 @@
-Mini Car Service Management
+# Mini Car Service Management
 
 A lightweight desktop app for a car service shop to log vehicles and their repair/maintenance history — no server, no cloud, just Python and a local SQLite file. Built with Tkinter for the interface and SQLite for storage. The UI is in Romanian (Service Auto - Istoric Intervenții), matching its intended use in a Romanian auto repair shop.
 
-Features
+# Features
 Add an intervention — enter a plate number, vehicle details, and a description of the work done. If the plate number already exists, the new intervention is linked to the existing car instead of duplicating it.
 Auto-fill on known plates — leaving the plate number field auto-fills the vehicle's VIN, make, model, year, engine size, and power, plus the last known client name and phone number, if that plate has been seen before.
 Search history by plate — pull up every recorded intervention for a given car, most recent first.
@@ -16,8 +16,8 @@ SQLite (sqlite3) — local storage, standard library
 
 No third-party packages are required.
 
-Project structure
-Mini-Car-Service-Management/
+# Project structure
+# Mini-Car-Service-Management/
 
 ├── main.py       # Entry point — launches the app
 
@@ -34,7 +34,7 @@ gui.py knows nothing about SQL. ServiceAutoApp builds the window and wires each 
 main.py just creates a ServiceAutoApp and starts it.
 Getting started
 
-Requirements: Python 3.8+ with Tkinter available (bundled with most Python installers; on Debian/Ubuntu you may need sudo apt install python3-tk).
+# Requirements: Python 3.8+ with Tkinter available (bundled with most Python installers; on Debian/Ubuntu you may need sudo apt install python3-tk).
 
 bash
 git clone https://github.com/MihaiMicle/Mini-Car-Service-Management.git
