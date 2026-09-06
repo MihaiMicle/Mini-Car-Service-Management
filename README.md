@@ -17,7 +17,7 @@ SQLite (sqlite3) — local storage, standard library
 No third-party packages are required.
 
 # Project structure
-# Mini-Car-Service-Management/
+Mini-Car-Service-Management/
 
 ├── main.py       # Entry point — launches the app
 
@@ -52,4 +52,5 @@ masini — one row per vehicle: plate number, VIN, make, model, year, engine siz
 interventii — one row per service visit: linked vehicle, date, description, mileage, invoice number, parts supplier, and the client's name and phone number at the time of that visit.
 License
 
+#  License
 No license has been specified for this project yet.
