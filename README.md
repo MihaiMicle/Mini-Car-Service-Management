@@ -34,7 +34,8 @@ gui.py knows nothing about SQL. ServiceAutoApp builds the window and wires each 
 main.py just creates a ServiceAutoApp and starts it.
 Getting started
 
-# Requirements: Python 3.8+ with Tkinter available (bundled with most Python installers; on Debian/Ubuntu you may need sudo apt install python3-tk).
+# Requirements
+Python 3.8+ with Tkinter available (bundled with most Python installers; on Debian/Ubuntu you may need sudo apt install python3-tk).
 
 bash
 git clone https://github.com/MihaiMicle/Mini-Car-Service-Management.git
